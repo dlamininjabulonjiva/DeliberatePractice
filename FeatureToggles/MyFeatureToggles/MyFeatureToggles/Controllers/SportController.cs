@@ -26,8 +26,8 @@ namespace MyFeatureToggles.Controllers
       return news;
     }
 
-    [HttpGet("fixture")]
-    public async Task<string> GetFixture()
+    [HttpGet("matchDay")]
+    public async Task<string> GetMatchDay()
     {
       var isGameOnASaturday = await _featureManager.IsEnabledAsync("SaturdayGameEnabled");
       var matchDay = isGameOnASaturday ? "Game will be played on a Saturday" : "Game will be played on a Sunday";
