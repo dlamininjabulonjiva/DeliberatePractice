@@ -1,0 +1,13 @@
+1. navigate to the folder C/folder name/your project
+2. run command nvm list
+3. run command nvm install 10.15.3
+4. run command npm install karma --save-dev
+5. run command npm install karma-jasmine karma-chrome-launcher jasmine-core --save-dev
+6. run command npm install -g karma-cli
+7. run command karma init
+8. Press enter
+9. Enter
+10. answer question
+11. Then add Js folder if it is not there and start working
+
+Use karma start to run tests

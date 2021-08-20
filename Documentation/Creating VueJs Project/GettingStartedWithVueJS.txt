@@ -1,0 +1,4 @@
+1. Open Command Prompt and Run npm install -g @vue/cli (I think it's a once off thing)
+2. To create a project -> vue create hello-world(Your Project Name) and answer all the setup questions that follows.
+3. To run project -> npm run serve
+4. To run unit tests -> npm run test:unit
