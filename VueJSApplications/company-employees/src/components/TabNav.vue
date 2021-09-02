@@ -1,5 +1,5 @@
 <template>
-    <div style="width: 30%">
+    <div style="width: 70%">
         <ul class="nav nav-tabs">
             <li v-for="tab in tabs" :key="tab" class="nav-item">
                 <a class="nav-link" :class="{ active: tab === selected }" @click="setTab(tab)">

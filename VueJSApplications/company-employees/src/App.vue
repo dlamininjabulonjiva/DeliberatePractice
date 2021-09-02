@@ -133,23 +133,17 @@
         switch(tabSelected) {
           case 'Delivery Managers':
             this.managers = data.managers;
-            this.seniorDevelopers = [];
-            this.juniorDevelopers = [];
             break;
           case 'Senior Developers':
             this.seniorDevelopers = data.seniors;
-            this.managers = [];
-            this.juniorDevelopers = [];
             break;
           case 'Junior Developers':
             this.juniorDevelopers = data.juniors;
-            this.seniorDevelopers = [];
-            this.managers = [];
             break;
         }
       }
     },
-    async mounted(){
+    async mounted() {
       let apiResults = await axios.get("https://run.mocky.io/v3/ba2304f3-49b5-4c13-a09e-3459ebbec294");
       this.employees = apiResults.data;
       this.currentlySelectTab(this.selected, this.employees);
