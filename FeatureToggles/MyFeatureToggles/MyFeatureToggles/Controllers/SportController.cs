@@ -6,7 +6,7 @@ using Microsoft.FeatureManagement.Mvc;
 namespace MyFeatureToggles.Controllers
 {
   [ApiController]
-  [Route("[controller]")]
+  [Route("sport")]
   public class SportController : Controller
   {
     private readonly IFeatureManager _featureManager;

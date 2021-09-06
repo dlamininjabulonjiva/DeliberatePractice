@@ -3,8 +3,10 @@
     <TabNav :tabs="['Delivery Managers', 'Senior Developers', 'Junior Developers']" :selected="selected" @selected="setSelected" >
       <Tab :isSelected="selected === 'Delivery Managers'" >
         <br><br>
-        <p>These are all our delivery managers</p>
-        <table class="table table-hover table-bordered">
+        <div v-if="loading" class="spinner-border loader text-primary" role="status">
+        </div>
+        <p v-if="!loading">These are all our delivery managers</p>
+        <table v-if="!loading" class="table table-hover table-bordered">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -37,8 +39,10 @@
       </Tab>
       <Tab :isSelected="selected === 'Senior Developers'" >
         <br><br>
-        <p>These are all our senior developers</p>
-        <table class="table table-hover table-bordered">
+        <div v-if="loading" class="spinner-border loader text-primary" role="status">
+        </div>
+        <p v-if="!loading">These are all our senior developers</p>
+        <table v-if="!loading" class="table table-hover table-bordered">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -71,8 +75,10 @@
       </Tab>
       <Tab :isSelected="selected === 'Junior Developers'" >
         <br><br>
-        <p>These are all our junior developers</p>
-        <table class="table table-hover table-bordered">
+        <div v-if="loading" class="spinner-border loader text-primary" role="status">
+        </div>
+        <p v-if="!loading">These are all our junior developers</p>
+        <table v-if="!loading" class="table table-hover table-bordered">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -110,13 +116,14 @@
 <script>
   import TabNav from './components/TabNav.vue';
   import Tab from './components/Tab.vue';
-  import axios from 'axios'
+  import api from '@/apiService';
 
   export default {
     name: 'App',
     components: { TabNav, Tab },
     data() {
       return {
+        loading: true,
         selected: 'Delivery Managers',
         managers: [],
         seniorDevelopers: [],
@@ -124,30 +131,55 @@
         employees: []
       }
     },
+    async created() {
+      this.currentlySelectTab(this.selected);
+    },
     methods: {
       setSelected(tab) {
         this.selected = tab;
-        this.currentlySelectTab(this.selected, this.employees);
+        this.currentlySelectTab(this.selected);
       },
-      currentlySelectTab(tabSelected, data) {
+      currentlySelectTab(tabSelected) {
         switch(tabSelected) {
           case 'Delivery Managers':
-            this.managers = data.managers;
+            this.getDeliveryManagers()
             break;
           case 'Senior Developers':
-            this.seniorDevelopers = data.seniors;
+            this.getSeniorDevelopers();
             break;
           case 'Junior Developers':
-            this.juniorDevelopers = data.juniors;
+            this.getJuniorDevelopers();
             break;
         }
-      }
+      },
+      async getDeliveryManagers() {
+        this.loading = true;
+        try {
+          let data = await api.getDeliveryManagers();
+          this.managers = data.managers;
+        } finally {
+          this.loading = false;
+        }
+      },
+      async getSeniorDevelopers() {
+        this.loading = true;
+        try {
+          let data = await api.getSeniorDevelopers();
+          this.seniorDevelopers = data.seniors;
+        } finally {
+          this.loading = false;
+        }
+      },
+      async getJuniorDevelopers() {
+        this.loading = true;
+        try {
+          let data = await api.getJuniorDevelopers();
+          this.juniorDevelopers = data.juniors;
+        } finally {
+          this.loading = false;
+        }
+      },
     },
-    async mounted() {
-      let apiResults = await axios.get("https://run.mocky.io/v3/ba2304f3-49b5-4c13-a09e-3459ebbec294");
-      this.employees = apiResults.data;
-      this.currentlySelectTab(this.selected, this.employees);
-    }
   }
 </script>
 
@@ -161,5 +193,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .loader {
+    left: 50%;
+    margin-left: 50%;
   }
 </style>
