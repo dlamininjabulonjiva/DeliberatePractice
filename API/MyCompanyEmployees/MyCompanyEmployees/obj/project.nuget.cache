@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWgUqluZgfKnqJ7r+vgN4gy1lKj5Bn7Wm9Yygl4ZezO0+gHNyNuexNbgUbDjJV7oUJNe804q3FCnxb/50CNLDg==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\MyChillisoftProgressionStuff\\DeliberatePractice\\API\\MyCompanyEmployees\\MyCompanyEmployees\\MyCompanyEmployees.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\njabulo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\njabulo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\njabulo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.1\\swashbuckle.aspnetcore.6.2.1.nupkg.sha512",
+    "C:\\Users\\njabulo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.1\\swashbuckle.aspnetcore.swagger.6.2.1.nupkg.sha512",
+    "C:\\Users\\njabulo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.1\\swashbuckle.aspnetcore.swaggergen.6.2.1.nupkg.sha512",
+    "C:\\Users\\njabulo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.1\\swashbuckle.aspnetcore.swaggerui.6.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
