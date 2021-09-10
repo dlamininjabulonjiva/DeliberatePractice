@@ -31,7 +31,7 @@
                 {{ manager.email }}
               </td>
               <td>
-                {{ manager.phone_number }}
+                {{ manager.phoneNumber }}
               </td>
             </tr>
           </tbody>
@@ -67,7 +67,7 @@
                 {{ seniorDeveloper.email }}
               </td>
               <td>
-                {{ seniorDeveloper.phone_number }}
+                {{ seniorDeveloper.phoneNumber }}
               </td>
             </tr>
           </tbody>
@@ -103,7 +103,7 @@
                 {{ juniorDeveloper.email }}
               </td>
               <td>
-                {{ juniorDeveloper.phone_number }}
+                {{ juniorDeveloper.phoneNumber }}
               </td>
             </tr>
           </tbody>
@@ -156,8 +156,8 @@
       async getDeliveryManagers() {
         this.loading = true;
         try {
-          let data = await api.getDeliveryManagers();
-          this.managers = data.managers;
+          let results = await api.getDeliveryManagers();
+          this.managers = results.data;
         } finally {
           this.loading = false;
         }
@@ -165,8 +165,8 @@
       async getSeniorDevelopers() {
         this.loading = true;
         try {
-          let data = await api.getSeniorDevelopers();
-          this.seniorDevelopers = data.seniors;
+          let results = await api.getSeniorDevelopers();
+          this.seniorDevelopers = results.data;
         } finally {
           this.loading = false;
         }
@@ -174,8 +174,8 @@
       async getJuniorDevelopers() {
         this.loading = true;
         try {
-          let data = await api.getJuniorDevelopers();
-          this.juniorDevelopers = data.juniors;
+          let results = await api.getJuniorDevelopers();
+          this.juniorDevelopers = results.data;
         } finally {
           this.loading = false;
         }

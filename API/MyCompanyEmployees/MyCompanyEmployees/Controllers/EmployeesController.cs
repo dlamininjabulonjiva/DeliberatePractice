@@ -15,7 +15,7 @@ namespace MyCompanyEmployees.Controllers
         new Employee {Id = 1, Name = "Pep", Surname = "Guardiola", Email = "pep@test.co.za", PhoneNumber = "0789056532"},
         new Employee {Id = 2, Name = "Thomas", Surname = "Tuchel", Email = "thomas@test.co.za", PhoneNumber = "0827144432"},
         new Employee {Id = 3, Name = "Ole Gunnar", Surname = "Solskjaer", Email = "ole@test.co.za", PhoneNumber = "0617509638"},
-        new Employee {Id = 1, Name = "Mikel", Surname = "Arteta", Email = "mikel@test.co.za", PhoneNumber = "0837529865"}
+        new Employee {Id = 4, Name = "Mikel", Surname = "Arteta", Email = "mikel@test.co.za", PhoneNumber = "0837529865"}
       };
       return managers;
     }
