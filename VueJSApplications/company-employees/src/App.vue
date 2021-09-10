@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TabNav :tabs="['Delivery Managers', 'Senior Developers', 'Junior Developers']" :selected="selected" @selected="setSelected" >
+    <TabNav :tabs="allTabs" :selected="selected" @selected="setSelected" >
       <Tab :isSelected="selected === 'Delivery Managers'" >
         <br><br>
         <div v-if="loading" class="spinner-border loader text-primary" role="status">
@@ -128,10 +128,11 @@
         managers: [],
         seniorDevelopers: [],
         juniorDevelopers: [],
-        employees: []
+        allTabs: []
       }
     },
     async created() {
+      this.allTabs = ['Delivery Managers', 'Senior Developers', 'Junior Developers'];
       this.currentlySelectTab(this.selected);
     },
     methods: {
