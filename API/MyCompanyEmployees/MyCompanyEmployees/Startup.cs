@@ -30,7 +30,6 @@ namespace MyCompanyEmployees
       services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
       {
         builder.AllowAnyOrigin()
-          .AllowAnyMethod()
           .AllowAnyHeader();
       }));
     }

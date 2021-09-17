@@ -24,3 +24,4 @@ C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\API\MyCompanyEmpl
 C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\API\MyCompanyEmployees\MyCompanyEmployees\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\API\MyCompanyEmployees\MyCompanyEmployees\obj\Debug\netcoreapp3.1\MyCompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
 C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\API\MyCompanyEmployees\MyCompanyEmployees\obj\Debug\netcoreapp3.1\MyCompanyEmployees.csproj.CopyComplete
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\API\MyCompanyEmployees\MyCompanyEmployees\obj\Debug\netcoreapp3.1\MyCompanyEmployees.GeneratedMSBuildEditorConfig.editorconfig
