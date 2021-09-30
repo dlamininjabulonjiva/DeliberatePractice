@@ -34,7 +34,7 @@ describe('TabNav.vue', () => {
       const tabs = ['tab1', 'tab2', 'tab3'];
       const selected = 'tab1';
       const wrapper = wrapperFactory(tabs, selected);
-      spyOn(wrapper.vm, "setTab");
+      jest.spyOn(wrapper.vm, "setTab");
       // Act
       wrapper.find(".nav-link").trigger("click");
       // Assert
