@@ -2,6 +2,19 @@ import { shallowMount } from '@vue/test-utils'
 import TabNav from '@/components/TabNav.vue'
 
 describe('TabNav.vue', () => {
+  describe('Fields', () => {
+    it('should display un ordered list', async () => {
+      // Arrange
+      const tabs = [];
+      const selected = '';
+      const wrapper = wrapperFactory(tabs, selected);
+      // Act
+      const actual = wrapper.find(".nav-tabs");
+      // Assert
+      expect(actual.exists()).toBe(true);
+    });
+  });
+
   describe('Props', () => {
     it('should have props', () => {
       // Arrange

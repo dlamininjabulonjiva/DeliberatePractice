@@ -5,7 +5,7 @@
         <br><br>
         <div v-if="loading" class="spinner-border loader text-primary" role="status">
         </div>
-        <p v-if="!loading">These are all our delivery managers</p>
+        <p class="deliveryManagers" v-if="!loading">These are all our delivery managers</p>
         <table v-if="!loading" class="table table-hover table-bordered">
           <thead>
             <tr>
@@ -41,7 +41,7 @@
         <br><br>
         <div v-if="loading" class="spinner-border loader text-primary" role="status">
         </div>
-        <p v-if="!loading">These are all our senior developers</p>
+        <p class="seniorDevelopers" v-if="!loading">These are all our senior developers</p>
         <table v-if="!loading" class="table table-hover table-bordered">
           <thead>
             <tr>
@@ -77,7 +77,7 @@
         <br><br>
         <div v-if="loading" class="spinner-border loader text-primary" role="status">
         </div>
-        <p v-if="!loading">These are all our junior developers</p>
+        <p class="juniorDevelopers" v-if="!loading">These are all our junior developers</p>
         <table v-if="!loading" class="table table-hover table-bordered">
           <thead>
             <tr>
@@ -133,23 +133,23 @@
     },
     async created() {
       this.allTabs = ['Delivery Managers', 'Senior Developers', 'Junior Developers'];
-      this.currentlySelectTab(this.selected);
+      await this.currentlySelectTab(this.selected);
     },
     methods: {
-      setSelected(tab) {
+      async setSelected(tab) {
         this.selected = tab;
-        this.currentlySelectTab(this.selected);
+        await this.currentlySelectTab(this.selected);
       },
-      currentlySelectTab(tabSelected) {
+      async currentlySelectTab(tabSelected) {
         switch(tabSelected) {
           case 'Delivery Managers':
-            this.getDeliveryManagers()
+            this.managers = await this.getDeliveryManagers();
             break;
           case 'Senior Developers':
-            this.getSeniorDevelopers();
+            this.seniorDevelopers = await this.getSeniorDevelopers();
             break;
           case 'Junior Developers':
-            this.getJuniorDevelopers();
+            this.juniorDevelopers = await this.getJuniorDevelopers();
             break;
         }
       },
@@ -157,7 +157,7 @@
         this.loading = true;
         try {
           let results = await api.getDeliveryManagers();
-          this.managers = results.data;
+          return results.data;
         } finally {
           this.loading = false;
         }
@@ -166,7 +166,7 @@
         this.loading = true;
         try {
           let results = await api.getSeniorDevelopers();
-          this.seniorDevelopers = results.data;
+          return results.data;
         } finally {
           this.loading = false;
         }
@@ -175,7 +175,7 @@
         this.loading = true;
         try {
           let results = await api.getJuniorDevelopers();
-          this.juniorDevelopers = results.data;
+          return results.data;
         } finally {
           this.loading = false;
         }
