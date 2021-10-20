@@ -144,12 +144,18 @@
         switch(tabSelected) {
           case 'Delivery Managers':
             this.managers = await this.getDeliveryManagers();
+            this.seniorDevelopers = [];
+            this.juniorDevelopers = [];
             break;
           case 'Senior Developers':
             this.seniorDevelopers = await this.getSeniorDevelopers();
+            this.managers = [];
+            this.juniorDevelopers = [];
             break;
           case 'Junior Developers':
             this.juniorDevelopers = await this.getJuniorDevelopers();
+            this.seniorDevelopers = [];
+            this.managers = [];
             break;
         }
       },

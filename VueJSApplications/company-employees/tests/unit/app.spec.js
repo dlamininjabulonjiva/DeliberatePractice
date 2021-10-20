@@ -79,6 +79,144 @@ describe('App.vue', () => {
                 expect(actual.text()).toBe(expectedMessage);
             });
         });
+
+        describe('Tables', () => {
+            describe('Hearders', () => {
+                it('should contains the right header titles when delivery managers tab is selected', async () => {
+                    // Arrange
+                    const selectedTab = 'Delivery Managers';
+                    const managers = {
+                        data : []
+                    };
+                    const wrapper = wrapperFactory();
+                    jest.spyOn(api, "getDeliveryManagers").mockReturnValue(managers);
+                    // Act
+                    await wrapper.vm.setSelected(selectedTab);
+                    // Assert
+                    expect(wrapper.find('thead th:nth-of-type(1)').text()).toBe('#');
+                    expect(wrapper.find('thead th:nth-of-type(2)').text()).toBe('Name');
+                    expect(wrapper.find('thead th:nth-of-type(3)').text()).toBe('Surname');
+                    expect(wrapper.find('thead th:nth-of-type(4)').text()).toBe('Email Address');
+                    expect(wrapper.find('thead th:nth-of-type(5)').text()).toBe('Phone Number');
+                });
+    
+                it('should contains the right header titles when senior developers tab is selected', async () => {
+                    // Arrange
+                    const selectedTab = 'Senior Developers';
+                    const seniors = {
+                        data : []
+                    };
+                    const wrapper = wrapperFactory();
+                    jest.spyOn(api, "getSeniorDevelopers").mockReturnValue(seniors);
+                    // Act
+                    await wrapper.vm.setSelected(selectedTab);
+                    // Assert
+                    expect(wrapper.find('thead th:nth-of-type(1)').text()).toBe('#');
+                    expect(wrapper.find('thead th:nth-of-type(2)').text()).toBe('Name');
+                    expect(wrapper.find('thead th:nth-of-type(3)').text()).toBe('Surname');
+                    expect(wrapper.find('thead th:nth-of-type(4)').text()).toBe('Email Address');
+                    expect(wrapper.find('thead th:nth-of-type(5)').text()).toBe('Phone Number');
+                });
+    
+                it('should contains the right header titles when junior developers tab is selected', async () => {
+                    // Arrange
+                    const selectedTab = 'Junior Developers';
+                    const junior = {
+                        data : []
+                    };
+                    const wrapper = wrapperFactory();
+                    jest.spyOn(api, "getJuniorDevelopers").mockReturnValue(junior);
+                    // Act
+                    await wrapper.vm.setSelected(selectedTab);
+                    // Assert
+                    expect(wrapper.find('thead th:nth-of-type(1)').text()).toBe('#');
+                    expect(wrapper.find('thead th:nth-of-type(2)').text()).toBe('Name');
+                    expect(wrapper.find('thead th:nth-of-type(3)').text()).toBe('Surname');
+                    expect(wrapper.find('thead th:nth-of-type(4)').text()).toBe('Email Address');
+                    expect(wrapper.find('thead th:nth-of-type(5)').text()).toBe('Phone Number');
+                });
+            });
+
+            describe('Body', () => {
+                it('should contains the correct values when delivery managers tab is selected', async () => {
+                    // Arrange
+                    const selectedTab = 'Delivery Managers';
+                    const managers = {
+                        data : [
+                            {
+                                id: 1,
+                                name: 'Lamar',
+                                surname: 'Jackson',
+                                email: 'lamar@test.co.za',
+                                phoneNumber: '0317144456'
+                            }
+                        ]
+                    };
+                    const wrapper = wrapperFactory();
+                    jest.spyOn(api, "getDeliveryManagers").mockReturnValue(managers);
+                    // Act
+                    await wrapper.vm.setSelected(selectedTab);
+                    // Assert
+                    expect(wrapper.find('tbody th:nth-of-type(1)').text()).toBe(managers.data[0].id.toString())
+                    expect(wrapper.find('tbody td:nth-of-type(1)').text()).toBe(managers.data[0].name)
+                    expect(wrapper.find('tbody td:nth-of-type(2)').text()).toBe(managers.data[0].surname)
+                    expect(wrapper.find('tbody td:nth-of-type(3)').text()).toBe(managers.data[0].email)
+                    expect(wrapper.find('tbody td:nth-of-type(4)').text()).toBe(managers.data[0].phoneNumber)
+                });
+
+                it('should contains the correct values when senior developers tab is selected', async () => {
+                    // Arrange
+                    const selectedTab = 'Senior Developers';
+                    const seniors = {
+                        data : [
+                            {
+                                id: 1,
+                                name: 'Nick',
+                                surname: 'Boyle',
+                                email: 'nick@test.co.za',
+                                phoneNumber: '0817644456'
+                            }
+                        ]
+                    };
+                    const wrapper = wrapperFactory();
+                    jest.spyOn(api, "getSeniorDevelopers").mockReturnValue(seniors);
+                    // Act
+                    await wrapper.vm.setSelected(selectedTab);
+                    // Assert
+                    expect(wrapper.find('tbody th:nth-of-type(1)').text()).toBe(seniors.data[0].id.toString())
+                    expect(wrapper.find('tbody td:nth-of-type(1)').text()).toBe(seniors.data[0].name)
+                    expect(wrapper.find('tbody td:nth-of-type(2)').text()).toBe(seniors.data[0].surname)
+                    expect(wrapper.find('tbody td:nth-of-type(3)').text()).toBe(seniors.data[0].email)
+                    expect(wrapper.find('tbody td:nth-of-type(4)').text()).toBe(seniors.data[0].phoneNumber)
+                });
+
+                it('should contains the correct values when junior developers tab is selected', async () => {
+                    // Arrange
+                    const selectedTab = 'Junior Developers';
+                    const junior = {
+                        data : [
+                            {
+                                id: 1,
+                                name: 'Tyrick',
+                                surname: 'Hill',
+                                email: 'tyrick@test.co.za',
+                                phoneNumber: '0797644456'
+                            }
+                        ]
+                    };
+                    const wrapper = wrapperFactory();
+                    jest.spyOn(api, "getJuniorDevelopers").mockReturnValue(junior);
+                    // Act
+                    await wrapper.vm.setSelected(selectedTab);
+                    // Assert
+                    expect(wrapper.find('tbody th:nth-of-type(1)').text()).toBe(junior.data[0].id.toString())
+                    expect(wrapper.find('tbody td:nth-of-type(1)').text()).toBe(junior.data[0].name)
+                    expect(wrapper.find('tbody td:nth-of-type(2)').text()).toBe(junior.data[0].surname)
+                    expect(wrapper.find('tbody td:nth-of-type(3)').text()).toBe(junior.data[0].email)
+                    expect(wrapper.find('tbody td:nth-of-type(4)').text()).toBe(junior.data[0].phoneNumber)
+                });
+            });
+        });
     });
     
     describe('Methods', () => {
