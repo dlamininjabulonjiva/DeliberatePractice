@@ -1,3 +1,10 @@
 .App {
   margin: 40px;
+
+  .CartIconButton{
+    position: fixed;
+    z-index: 100;
+    right: 35px;
+    top: 3px;
+  }
 }

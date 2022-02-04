@@ -9,4 +9,5 @@ export type ProductItem = {
         rate: number;
         count: number;
     };
+    numberOfProducts: number;
 };
