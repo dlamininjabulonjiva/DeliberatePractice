@@ -12,8 +12,7 @@ const Product: React.FC<ProductProps> = ({ product, addProductToCart }) => (
         <img src={product.image} alt={product.title} />
         <div className='ProductInfo'>
             <h3>{product.title}</h3>
-            <p>{product.description}</p>
-            <h3>${product.rating.rate}</h3>
+            <h3>${product.price}</h3>
         </div>
         <Button onClick={() => addProductToCart(product)}>Add to cart</Button>
     </div>

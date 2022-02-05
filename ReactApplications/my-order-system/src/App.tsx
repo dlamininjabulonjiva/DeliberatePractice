@@ -77,7 +77,7 @@ const App = () => {
       </IconButton> 
       <Grid container spacing={3}>
         {allProducts?.data?.map(productItem => (
-          <Grid item key={productItem.id} xs={12} sm={4}>
+          <Grid item key={productItem.id} xs={12} sm={3}>
             <Product product={productItem} addProductToCart={addProductToCart} />
           </Grid>
         ))}
