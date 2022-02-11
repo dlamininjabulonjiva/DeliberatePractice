@@ -1,5 +1,6 @@
 import CartItem from '../CartItem/CartItem';
 import { ProductItem } from '../Product/ProductItem';
+import FormatCurrency  from '../../Helpers/FormatCurrency';
 import './Cart.scss';
 
 type CartProps = {
@@ -25,7 +26,7 @@ const Cart: React.FC<CartProps> = ({ products, addProductToCart, removeProductFr
                     removeProductFromCart={removeProductFromCart}
                 />
             ))}
-            <h2>Total: ${calculateTotalAmount(products).toFixed(2)}</h2>
+            <h2>Total: {FormatCurrency(calculateTotalAmount(products))}</h2>
         </div>
     );
 };

@@ -57,7 +57,7 @@ const App = () => {
     return <LinearProgress />;
   } 
 
-  if (allProducts.error) {
+  if (allProducts.error != null) {
     return <div>Oops there was an error while trying to fetch the products ...</div>;
   } 
 

@@ -1,5 +1,6 @@
 import Button from '@material-ui/core/Button';
 import { ProductItem } from '../Product/ProductItem';
+import FormatCurrency  from '../../Helpers/FormatCurrency';
 import './CartItem.scss';
 
 type CartItemProps = {
@@ -13,8 +14,8 @@ const CartItem: React.FC<CartItemProps> = ({ product, addProductToCart, removePr
         <div>
             <h4>{product.title}</h4>
             <div className='information'>
-                <p>Price: ${product.price}</p>
-                <p>Total: ${(product.numberOfProducts * product.price).toFixed(2)}</p>
+                <p>Price: {FormatCurrency(product.price)}</p>
+                <p>Total: {FormatCurrency(product.numberOfProducts * product.price)}</p>
             </div>
             <div className='buttons'>
                 <Button

@@ -10,7 +10,7 @@ function useFetchData<Payload>(
   } {
     const [data, setData] = useState<Payload | null>(null);
     const [doneLoading, isDoneLoading] = useState(false);
-    const [error, setError] = useState(false);
+    const [error, setError] = useState(null);
   
     useEffect(() => {
       fetch(url)
@@ -29,9 +29,7 @@ function useFetchData<Payload>(
     };
 }
 
-function GetAllProducts() {
+export function GetAllProducts() {
     const products = useFetchData<ProductItem[]>('https://fakestoreapi.com/products');
     return products;
 }
-
-export { GetAllProducts}
