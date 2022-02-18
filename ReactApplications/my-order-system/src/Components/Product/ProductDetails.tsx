@@ -1,3 +1,4 @@
+import { LinearProgress } from "@material-ui/core";
 import { useParams } from "react-router-dom";
 import { GetProductById } from '../../Services/MyApiService';
 import './ProductDetails.scss';
@@ -10,8 +11,14 @@ const ProductDetails: React.FC<ProductDetailsProps> = () => {
     const id: string = productId ?? '';
     const product = GetProductById(id);
 
-    console.log(product);
+    if (!product.doneLoading) {
+        return <LinearProgress />;
+    } 
 
+    if (product.error != null) {
+        return <div>Oops there was an error while trying to fetch the product ...</div>;
+    }
+     
     return (
         <div className="ProductDetails">
             <h2>My Details : {product.data?.category}</h2>

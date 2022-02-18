@@ -11,7 +11,7 @@ type ProductProps = {
 };
 
 const Product: React.FC<ProductProps> = ({ product, addProductToCart }) => {
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     return (
         <div className="Product">
