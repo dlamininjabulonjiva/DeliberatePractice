@@ -30,6 +30,11 @@ function useFetchData<Payload>(
 }
 
 export function GetAllProducts() {
-    const products = useFetchData<ProductItem[]>('https://fakestoreapi.com/products');
-    return products;
+  const products = useFetchData<ProductItem[]>('https://fakestoreapi.com/products');
+  return products;
+}
+
+export function GetProductById(id: string) {
+  const product = useFetchData<ProductItem>('https://fakestoreapi.com/products/' + id);
+  return product;
 }
