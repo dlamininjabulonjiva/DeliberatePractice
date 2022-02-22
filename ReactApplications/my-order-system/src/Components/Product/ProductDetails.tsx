@@ -5,13 +5,10 @@ import Button from '@material-ui/core/Button';
 import FormatCurrency  from '../../Helpers/FormatCurrency';
 import './ProductDetails.scss';
 
-type ProductDetailsProps = {
-};
-
-const ProductDetails: React.FC<ProductDetailsProps> = () => {
+const ProductDetails: React.FC = () => {
     const { productId } = useParams();
     const id: string = productId ?? '';
-    
+
     const product = GetProductById(id);
     const price: number = product.data?.price ?? 0;
 
