@@ -16,7 +16,12 @@
         height: 250px;
         object-fit: contain;
         border-radius: 20px 20px 0 0;
+        margin-top: 5px;
         cursor: pointer;
+    }
+
+    img:hover {
+        transform: scale(1.02);
     }
 
     .ProductInfo {
