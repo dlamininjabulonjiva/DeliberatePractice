@@ -23,7 +23,7 @@ const DisplayProducts: React.FC = () => {
     };
 
     const addProductToCart = (clickedProduct: ProductItem) => {
-        setProductItemsInCart(products => {
+      setProductItemsInCart(products => {
         const isProductInCart = products.find(product => product.id === clickedProduct.id);
 
         if (isProductInCart) {
@@ -35,22 +35,22 @@ const DisplayProducts: React.FC = () => {
         }
 
         return [...products, { ...clickedProduct, numberOfProducts: 1 }];
-        });
+      });
     };
 
     const removeProductFromCart = (id: number) => {
-        setProductItemsInCart(products =>
+      setProductItemsInCart(products =>
         products.reduce((num, product) => {
-            if (product.id === id) {
+          if (product.id === id) {
             if (product.numberOfProducts === 1) {
                 return num;
             } 
             return [...num, { ...product, numberOfProducts: product.numberOfProducts - 1 }];
-            } else {
+          } else {
             return [...num, product];
-            }
+          }
         }, [] as ProductItem[])
-        );
+      );
     };
 
     if (!allProducts.doneLoading) {
