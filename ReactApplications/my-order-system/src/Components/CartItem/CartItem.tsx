@@ -12,14 +12,21 @@ type CartItemProps = {
 const CartItem: React.FC<CartItemProps> = ({ product, addProductToCart, removeProductFromCart }) => (
     <div className='CartItem'>
         <div>
-            <h4>{product.title}</h4>
+            <h4 data-testid="title">
+                {product.title}
+            </h4>
             <div className='information'>
-                <p>Price: {FormatCurrency(product.price)}</p>
-                <p>Total: {FormatCurrency(product.numberOfProducts * product.price)}</p>
+                <p data-testid="price">
+                    Price: {FormatCurrency(product.price)}
+                </p>
+                <p data-testid="total">
+                    Total: {FormatCurrency(product.numberOfProducts * product.price)}
+                </p>
             </div>
             <div className='buttons'>
                 <Button
                     size='small'
+                    data-testid="removeProduct"
                     disableElevation
                     variant='contained'
                     onClick={() => removeProductFromCart(product.id)}
@@ -29,6 +36,7 @@ const CartItem: React.FC<CartItemProps> = ({ product, addProductToCart, removePr
                 <p>{product.numberOfProducts}</p>
                 <Button
                     size='small'
+                    data-testid="addProduct"
                     disableElevation
                     variant='contained'
                     onClick={() => addProductToCart(product)}
