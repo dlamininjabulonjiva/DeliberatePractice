@@ -8,7 +8,7 @@ describe("CartItem.tsx", () => {
         describe("Tags", () => {
             it("should set the title of the product", () => {
                 // Arrange
-                const product: ProductItem = GetProduct();
+                const product = GetProduct();
                 // Act
                 const {getByTestId} = render(
                     <CartItem 
@@ -23,7 +23,7 @@ describe("CartItem.tsx", () => {
 
             it("should set the price of the product", () => {
                 // Arrange
-                const product: ProductItem = GetProduct();
+                const product = GetProduct();
                 const expectedValue = "Price: " + FormatCurrency(product.price);
                 // Act
                 const {getByTestId} = render(
@@ -39,7 +39,7 @@ describe("CartItem.tsx", () => {
 
             it("should set the total price for all the products", () => {
                 // Arrange
-                const product: ProductItem = GetProduct();
+                const product = GetProduct();
                 const expectedValue = "Total: " + FormatCurrency(product.numberOfProducts * product.price);
                 // Act
                 const {getByTestId} = render(
@@ -58,7 +58,7 @@ describe("CartItem.tsx", () => {
             describe("AddProductToCart button", () => {
                 it("should render the add product to cart button", () => {
                     // Arrange
-                    const product: ProductItem = GetProduct();
+                    const product = GetProduct();
                     // Act
                     const {getByTestId} = render(
                         <CartItem 
@@ -73,7 +73,7 @@ describe("CartItem.tsx", () => {
 
                 it("should call the addProductToCart callback", () => {
                     // Arrange
-                    const product: ProductItem = GetProduct();
+                    const product = GetProduct();
                     const addProductToCart = jest.fn();
                     // Act
                     const {getByTestId} = render(
@@ -92,7 +92,7 @@ describe("CartItem.tsx", () => {
             describe("RemoveProductFromCart button", () => {
                 it("should render the remove product to cart button", () => {
                     // Arrange
-                    const product: ProductItem = GetProduct();
+                    const product = GetProduct();
                     // Act
                     const {getByTestId} = render(
                         <CartItem 
@@ -107,7 +107,7 @@ describe("CartItem.tsx", () => {
 
                 it("should call the addProductToCart callback", () => {
                     // Arrange
-                    const product: ProductItem = GetProduct();
+                    const product = GetProduct();
                     const removeProductFromCart = jest.fn();
                     // Act
                     const {getByTestId} = render(
