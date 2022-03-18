@@ -39,15 +39,15 @@ const DisplayProducts: React.FC = () => {
     };
 
     const removeProductFromCart = (id: number) => {
-      setProductItemsInCart(products =>
-        products.reduce((num, product) => {
+      setProductItemsInCart(prevProducts =>
+        prevProducts.reduce((products, product) => {
           if (product.id === id) {
             if (product.numberOfProducts === 1) {
-                return num;
+                return products;
             } 
-            return [...num, { ...product, numberOfProducts: product.numberOfProducts - 1 }];
+            return [...products, { ...product, numberOfProducts: product.numberOfProducts - 1 }];
           } else {
-            return [...num, product];
+            return [...products, product];
           }
         }, [] as ProductItem[])
       );
