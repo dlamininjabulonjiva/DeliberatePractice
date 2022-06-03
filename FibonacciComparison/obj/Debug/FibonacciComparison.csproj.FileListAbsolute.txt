@@ -1,0 +1,7 @@
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\bin\Debug\FibonacciComparison.exe.config
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\bin\Debug\FibonacciComparison.exe
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\bin\Debug\FibonacciComparison.pdb
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\obj\Debug\FibonacciComparison.csproj.AssemblyReference.cache
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\obj\Debug\FibonacciComparison.csproj.CoreCompileInputs.cache
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\obj\Debug\FibonacciComparison.exe
+C:\Development\MyChillisoftProgressionStuff\DeliberatePractice\FibonacciComparison\obj\Debug\FibonacciComparison.pdb
