@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import TailwindCssNotification from '../components/utility-first/tailwind-css-notification';
+import BreakpointResponsiveCard from '../components/responsive-design/media-responsive-card';
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <TailwindCssNotification />
+      <BreakpointResponsiveCard />
     </>
   );
 };

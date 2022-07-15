@@ -1,4 +1,4 @@
-import add from '@src/components/add';
+import add from '@src/components/practise/add';
 
 describe('add test', () => {
     it('should add two numbers', () => {

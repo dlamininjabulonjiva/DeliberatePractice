@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import HelloWorld from '@src/components/hello-world';
+import HelloWorld from '@src/components/practise/hello-world';
 
 describe('Hello World', () => {
   it('should have the hello world text', () => {
