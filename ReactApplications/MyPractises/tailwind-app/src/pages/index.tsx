@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import BreakpointResponsiveCard from '../components/responsive-design/media-responsive-card';
+import MediaResponsiveTable from '../components/responsive-design/media-responsive-table';
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <BreakpointResponsiveCard />
+      <MediaResponsiveTable />
     </>
   );
 };
