@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/prefer-screen-queries */
 import { fireEvent, render } from "@testing-library/react";
 import CartItem from '../CartItem/CartItem';
 import { ProductItem } from '../Product/ProductItem';
