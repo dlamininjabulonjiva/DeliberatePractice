@@ -1,5 +1,5 @@
 import FormatCurrency from "@src/helpers/Format-currency";
-import { ProductModel } from "./product-model";
+import { ProductModel } from "./Product-model";
 
 interface DisplayProductsProps {
     products: ProductModel[] | null;

@@ -1,5 +1,5 @@
 
-import { ProductModel } from "@src/components/products/product-model";
+import { ProductModel } from "@src/components/products/Product-model";
 import { useEffect, useState } from "react";
 
 function useFetchData<Payload>(
