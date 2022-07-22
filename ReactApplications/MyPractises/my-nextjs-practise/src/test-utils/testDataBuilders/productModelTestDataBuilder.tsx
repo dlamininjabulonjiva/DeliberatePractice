@@ -1,5 +1,5 @@
 import { ProductModel } from "@src/components/products/Product-model";
-import { TestDataBuilder } from "../Test-data-builder";
+import { TestDataBuilder } from "../TestDataBuilder";
 import faker from "faker"
 
 

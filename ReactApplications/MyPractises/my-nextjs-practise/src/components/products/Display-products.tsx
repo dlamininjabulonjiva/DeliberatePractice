@@ -9,7 +9,7 @@ const DisplayProducts: React.FunctionComponent<DisplayProductsProps> = ({ produc
     return (
         <>
             {products && products.map((product: ProductModel) => {
-                return <div className="max-w-md mb-3 p-2 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                return <div key={ product.id } className="max-w-md mb-3 p-2 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                         <div className="md:flex">
                             <div className="md:flex-shrink-0">
                                 <img
