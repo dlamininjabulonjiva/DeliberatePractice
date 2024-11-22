@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|solutionrelative:theorangeeagles.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|solutionrelative:theorangeeagles.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A254CFF-30A7-4D66-B46D-47F5F5F2582D}|TheOrangeEagles.Server.Core\\TheOrangeEagles.Server.Core.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A254CFF-30A7-4D66-B46D-47F5F5F2582D}|TheOrangeEagles.Server.Core\\TheOrangeEagles.Server.Core.csproj|solutionrelative:theorangeeagles.server.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A254CFF-30A7-4D66-B46D-47F5F5F2582D}|TheOrangeEagles.Server.Core\\TheOrangeEagles.Server.Core.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server.core\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A254CFF-30A7-4D66-B46D-47F5F5F2582D}|TheOrangeEagles.Server.Core\\TheOrangeEagles.Server.Core.csproj|solutionrelative:theorangeeagles.server.core\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C24483EA-68DC-494E-AE2D-F50C2439917F}|TheOrangeEagles.Server.Infrastructure\\TheOrangeEagles.Server.Infrastructure.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server.infrastructure\\data\\rugbyclubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C24483EA-68DC-494E-AE2D-F50C2439917F}|TheOrangeEagles.Server.Infrastructure\\TheOrangeEagles.Server.Infrastructure.csproj|solutionrelative:theorangeeagles.server.infrastructure\\data\\rugbyclubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|solutionrelative:theorangeeagles.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C24483EA-68DC-494E-AE2D-F50C2439917F}|TheOrangeEagles.Server.Infrastructure\\TheOrangeEagles.Server.Infrastructure.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C24483EA-68DC-494E-AE2D-F50C2439917F}|TheOrangeEagles.Server.Infrastructure\\TheOrangeEagles.Server.Infrastructure.csproj|solutionrelative:theorangeeagles.server.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A254CFF-30A7-4D66-B46D-47F5F5F2582D}|TheOrangeEagles.Server.Core\\TheOrangeEagles.Server.Core.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server.core\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A254CFF-30A7-4D66-B46D-47F5F5F2582D}|TheOrangeEagles.Server.Core\\TheOrangeEagles.Server.Core.csproj|solutionrelative:theorangeeagles.server.core\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeagles\\theorangeeagles.server\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4E0CBB7C-C360-4887-B9AE-81F83DAF2BCE}|TheOrangeEagles.Server\\TheOrangeEagles.Server.csproj|solutionrelative:theorangeeagles.server\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server\\appsettings.json",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\appsettings.json",
+              "RelativeToolTip": "TheOrangeEagles.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T13:47:46.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Core\\Models\\User.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:28:22.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Core\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server.Core\\Models\\Player.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Core\\Models\\Player.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server.Core\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:39:47.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:53:44.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Core\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server.Core\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Core\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server.Core\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:52:31.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:50:54.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RugbyClubDbContext.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Infrastructure\\Data\\RugbyClubDbContext.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server.Infrastructure\\Data\\RugbyClubDbContext.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server.Infrastructure\\Data\\RugbyClubDbContext.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server.Infrastructure\\Data\\RugbyClubDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:49:02.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\Program.cs",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server\\Program.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\Program.cs",
+              "RelativeToolTip": "TheOrangeEagles.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:31:40.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\docker-compose.yml",
+              "RelativeDocumentMoniker": "TheOrangeEagles.Server\\docker-compose.yml",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\TheOrangeEagles.Server\\docker-compose.yml",
+              "RelativeToolTip": "TheOrangeEagles.Server\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-21T11:03:55.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

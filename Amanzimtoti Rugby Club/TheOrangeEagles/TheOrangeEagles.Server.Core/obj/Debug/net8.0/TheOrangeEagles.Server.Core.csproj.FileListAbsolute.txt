@@ -1,0 +1,12 @@
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\bin\Debug\net8.0\TheOrangeEagles.Server.Core.deps.json
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\bin\Debug\net8.0\TheOrangeEagles.Server.Core.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\bin\Debug\net8.0\TheOrangeEagles.Server.Core.pdb
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.AssemblyInfoInputs.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.AssemblyInfo.cs
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.csproj.CoreCompileInputs.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.sourcelink.json
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\refint\TheOrangeEagles.Server.Core.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\TheOrangeEagles.Server.Core.pdb
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core\obj\Debug\net8.0\ref\TheOrangeEagles.Server.Core.dll

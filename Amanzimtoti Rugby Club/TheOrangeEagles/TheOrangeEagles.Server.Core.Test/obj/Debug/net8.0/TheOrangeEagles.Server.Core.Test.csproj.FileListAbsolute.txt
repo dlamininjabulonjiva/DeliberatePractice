@@ -1,0 +1,12 @@
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\bin\Debug\net8.0\TheOrangeEagles.Server.Core.Test.deps.json
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\bin\Debug\net8.0\TheOrangeEagles.Server.Core.Test.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\bin\Debug\net8.0\TheOrangeEagles.Server.Core.Test.pdb
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.AssemblyInfoInputs.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.AssemblyInfo.cs
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.csproj.CoreCompileInputs.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.sourcelink.json
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\refint\TheOrangeEagles.Server.Core.Test.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\TheOrangeEagles.Server.Core.Test.pdb
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEagles\TheOrangeEagles.Server.Core.Test\obj\Debug\net8.0\ref\TheOrangeEagles.Server.Core.Test.dll

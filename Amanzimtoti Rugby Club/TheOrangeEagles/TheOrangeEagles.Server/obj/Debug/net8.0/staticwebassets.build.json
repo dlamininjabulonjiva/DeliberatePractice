@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "jMXNMhTEtdaeg3QbNggF64Oy1k33XMd1ClHf6ZpJYcU=",
+  "Source": "TheOrangeEagles.Server",
+  "BasePath": "_content/TheOrangeEagles.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEagles\\theorangeeagles.client\\theorangeeagles.client.esproj",
+      "Version": 2,
+      "Source": "theorangeeagles.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
