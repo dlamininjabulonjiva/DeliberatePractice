@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fsv8fT163xk=",
+  "dgSpecHash": "0GwToSQq2zA=",
   "success": true,
   "projectFilePath": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Tests\\TheOrangeEaglesOfToti.Tests.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,10 @@
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspire.hosting\\9.0.0\\aspire.hosting.9.0.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspire.hosting.apphost\\9.0.0\\aspire.hosting.apphost.9.0.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\aspire.hosting.orchestration.win-x64.9.0.0.nupkg.sha512",
+    "C:\\Users\\Njabulo\\.nuget\\packages\\aspire.hosting.postgresql\\9.0.0\\aspire.hosting.postgresql.9.0.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspire.hosting.redis\\9.0.0\\aspire.hosting.redis.9.0.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspire.hosting.testing\\9.0.0\\aspire.hosting.testing.9.0.0.nupkg.sha512",
+    "C:\\Users\\Njabulo\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\8.0.2\\aspnetcore.healthchecks.npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspnetcore.healthchecks.redis\\8.0.1\\aspnetcore.healthchecks.redis.8.0.1.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\aspnetcore.healthchecks.uris\\8.0.1\\aspnetcore.healthchecks.uris.8.0.1.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\fractions\\7.3.0\\fractions.7.3.0.nupkg.sha512",
@@ -79,6 +81,7 @@
     "C:\\Users\\Njabulo\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.10.0\\microsoft.testplatform.objectmodel.17.10.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\microsoft.testplatform.testhost\\17.10.0\\microsoft.testplatform.testhost.17.10.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Njabulo\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\nunit.analyzers\\4.2.0\\nunit.analyzers.4.2.0.nupkg.sha512",
     "C:\\Users\\Njabulo\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",

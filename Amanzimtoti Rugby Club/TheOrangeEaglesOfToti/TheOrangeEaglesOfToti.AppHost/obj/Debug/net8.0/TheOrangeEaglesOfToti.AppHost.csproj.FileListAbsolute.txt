@@ -83,3 +83,6 @@ C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\T
 C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost\obj\Debug\net8.0\TheOrangeEaglesOfToti.AppHost.pdb
 C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost\obj\Debug\net8.0\TheOrangeEaglesOfToti.AppHost.genruntimeconfig.cache
 C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost\obj\Debug\net8.0\ref\TheOrangeEaglesOfToti.AppHost.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost\bin\Debug\net8.0\Aspire.Hosting.PostgreSQL.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost\bin\Debug\net8.0\Npgsql.dll
