@@ -15,6 +15,7 @@ builder.AddProject<Projects.TheOrangeEaglesOfToti_Web>("webfrontend")
     .WithReference(cache)
     .WaitFor(cache)
     .WithReference(apiService)
+    .WithReference(progressionFrameworkDb)
     .WaitFor(apiService);
 
 builder.Build().Run();
