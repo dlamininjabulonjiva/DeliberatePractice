@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MyOwnTestDataBuilder.Test
+build_property.ProjectDir = C:\Development\DeliberatePractice\TestDataBuilderPractice\MyOwnTestDataBuilder\MyOwnTestDataBuilder.Test\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

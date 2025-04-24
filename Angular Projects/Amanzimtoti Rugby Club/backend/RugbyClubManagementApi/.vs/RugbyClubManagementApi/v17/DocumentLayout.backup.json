@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F58B81C-3EE1-49C7-A000-535A0148099F}|RugbyClubManagementApi.Infrastructure\\RugbyClubManagementApi.Infrastructure.csproj|c:\\development\\deliberatepractice\\angular projects\\amanzimtoti rugby club\\backend\\rugbyclubmanagementapi\\rugbyclubmanagementapi.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F58B81C-3EE1-49C7-A000-535A0148099F}|RugbyClubManagementApi.Infrastructure\\RugbyClubManagementApi.Infrastructure.csproj|solutionrelative:rugbyclubmanagementapi.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F58B81C-3EE1-49C7-A000-535A0148099F}|RugbyClubManagementApi.Infrastructure\\RugbyClubManagementApi.Infrastructure.csproj|c:\\development\\deliberatepractice\\angular projects\\amanzimtoti rugby club\\backend\\rugbyclubmanagementapi\\rugbyclubmanagementapi.infrastructure\\data\\rugbyclubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F58B81C-3EE1-49C7-A000-535A0148099F}|RugbyClubManagementApi.Infrastructure\\RugbyClubManagementApi.Infrastructure.csproj|solutionrelative:rugbyclubmanagementapi.infrastructure\\data\\rugbyclubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF9CAD5B-C4F8-4E9E-A08C-C93DB28B01AA}|RugbyClubManagementApi\\RugbyClubManagementApi.csproj|c:\\development\\deliberatepractice\\angular projects\\amanzimtoti rugby club\\backend\\rugbyclubmanagementapi\\rugbyclubmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF9CAD5B-C4F8-4E9E-A08C-C93DB28B01AA}|RugbyClubManagementApi\\RugbyClubManagementApi.csproj|c:\\development\\deliberatepractice\\angular projects\\amanzimtoti rugby club\\backend\\rugbyclubmanagementapi\\rugbyclubmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EF9CAD5B-C4F8-4E9E-A08C-C93DB28B01AA}|RugbyClubManagementApi\\RugbyClubManagementApi.csproj|solutionrelative:rugbyclubmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D111B738-4614-49F2-9740-CC55E93A8F36}|RugbyClubManagementApi.Core\\RugbyClubManagementApi.Core.csproj|c:\\development\\deliberatepractice\\angular projects\\amanzimtoti rugby club\\backend\\rugbyclubmanagementapi\\rugbyclubmanagementapi.core\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D111B738-4614-49F2-9740-CC55E93A8F36}|RugbyClubManagementApi.Core\\RugbyClubManagementApi.Core.csproj|solutionrelative:rugbyclubmanagementapi.core\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF9CAD5B-C4F8-4E9E-A08C-C93DB28B01AA}|RugbyClubManagementApi\\RugbyClubManagementApi.csproj|c:\\development\\deliberatepractice\\angular projects\\amanzimtoti rugby club\\backend\\rugbyclubmanagementapi\\rugbyclubmanagementapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -26,19 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "RugbyClubManagementApi.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "RugbyClubManagementApi.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi.Core\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "RugbyClubManagementApi.Core\\Models\\Admin.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi.Core\\Models\\Admin.cs",
+              "RelativeToolTip": "RugbyClubManagementApi.Core\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:42:34.457Z",
+              "WhenOpened": "2025-04-01T06:40:09.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi\\docker-compose.yml",
+              "RelativeDocumentMoniker": "RugbyClubManagementApi\\docker-compose.yml",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi\\docker-compose.yml",
+              "RelativeToolTip": "RugbyClubManagementApi\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-24T08:06:35.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RugbyClubDbContext.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi.Infrastructure\\Data\\RugbyClubDbContext.cs",
+              "RelativeDocumentMoniker": "RugbyClubManagementApi.Infrastructure\\Data\\RugbyClubDbContext.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi.Infrastructure\\Data\\RugbyClubDbContext.cs*",
+              "RelativeToolTip": "RugbyClubManagementApi.Infrastructure\\Data\\RugbyClubDbContext.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T12:02:22.453Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +79,7 @@
               "RelativeDocumentMoniker": "RugbyClubManagementApi\\Program.cs",
               "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi\\Program.cs",
               "RelativeToolTip": "RugbyClubManagementApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T11:38:16.245Z",
               "EditorCaption": ""
@@ -62,22 +92,9 @@
               "RelativeDocumentMoniker": "RugbyClubManagementApi\\appsettings.json",
               "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi\\appsettings.json",
               "RelativeToolTip": "RugbyClubManagementApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-03T11:37:40.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi\\docker-compose.yml",
-              "RelativeDocumentMoniker": "RugbyClubManagementApi\\docker-compose.yml",
-              "ToolTip": "C:\\Development\\DeliberatePractice\\Angular Projects\\Amanzimtoti Rugby Club\\backend\\RugbyClubManagementApi\\RugbyClubManagementApi\\docker-compose.yml",
-              "RelativeToolTip": "RugbyClubManagementApi\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-02-03T11:37:20.364Z",
               "EditorCaption": ""
             }
           ]

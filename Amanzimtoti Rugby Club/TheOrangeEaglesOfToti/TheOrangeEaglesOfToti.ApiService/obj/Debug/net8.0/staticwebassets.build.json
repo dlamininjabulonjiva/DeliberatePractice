@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JCWOfKDmbHmk7vOEFJKqIUfkSg54A8B11JHkJLlfwkI=",
+  "Source": "TheOrangeEaglesOfToti.ApiService",
+  "BasePath": "_content/TheOrangeEaglesOfToti.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RugbyClubManagementApi.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4865885ffc65b18db17f5e11e79e2a72c6d35272")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa4d1a20bd3aaf2db6389145379880902ae054ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("RugbyClubManagementApi.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RugbyClubManagementApi.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

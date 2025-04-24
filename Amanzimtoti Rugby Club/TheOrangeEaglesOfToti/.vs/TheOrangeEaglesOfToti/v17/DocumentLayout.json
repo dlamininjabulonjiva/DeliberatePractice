@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE10E98-8357-2327-51C3-E495FECA1C96}|TheOrangeEaglesOfToti.ApiService\\TheOrangeEaglesOfToti.ApiService.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE10E98-8357-2327-51C3-E495FECA1C96}|TheOrangeEaglesOfToti.ApiService\\TheOrangeEaglesOfToti.ApiService.csproj|solutionrelative:theorangeeaglesoftoti.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.ApiService\\Program.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.ApiService\\Program.cs",
+              "RelativeToolTip": "TheOrangeEaglesOfToti.ApiService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:45:42.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

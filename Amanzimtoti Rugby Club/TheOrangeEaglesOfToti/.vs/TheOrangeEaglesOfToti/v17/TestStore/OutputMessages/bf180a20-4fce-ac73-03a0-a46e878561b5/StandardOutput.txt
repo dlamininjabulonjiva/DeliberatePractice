@@ -1,0 +1,88 @@
+info: Aspire.Hosting.DistributedApplication[0]
+      Aspire version: 9.0.0+01ed51919f8df692ececce51048a140615dc759d
+info: Aspire.Hosting.DistributedApplication[0]
+      Distributed application starting.
+info: Aspire.Hosting.DistributedApplication[0]
+      Application host directory is: C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.AppHost
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      1: 2025-04-24T07:44:59.7210156Z Waiting for resource 'cache' to enter the 'Running' state.
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      2: 2025-04-24T07:44:59.7299534Z Waiting for resource 'apiservice' to enter the 'Running' state.
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      3: 2025-04-24T07:45:01.0787486Z Finished waiting for resource 'apiservice'.
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      4: 2025-04-24T07:45:02.3431096Z Waiting for resource 'cache' to become healthy.
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      5: 2025-04-24T07:45:02.4972492Z Finished waiting for resource 'cache'.
+info: Aspire.Hosting.DistributedApplication[0]
+      Distributed application started. Press Ctrl+C to shut down.
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      1: 2025-04-24T07:45:01.6010000Z info: Microsoft.Hosting.Lifetime[14]
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      2: 2025-04-24T07:45:01.6040000Z       Now listening on: https://localhost:61718
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      3: 2025-04-24T07:45:01.6050000Z info: Microsoft.Hosting.Lifetime[14]
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      4: 2025-04-24T07:45:01.6060000Z       Now listening on: http://localhost:61719
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      5: 2025-04-24T07:45:01.7240000Z info: Microsoft.Hosting.Lifetime[0]
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      6: 2025-04-24T07:45:01.7250000Z       Application started. Press Ctrl+C to shut down.
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      7: 2025-04-24T07:45:01.7270000Z info: Microsoft.Hosting.Lifetime[0]
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      8: 2025-04-24T07:45:01.7280000Z       Hosting environment: Development
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      9: 2025-04-24T07:45:01.7300000Z info: Microsoft.Hosting.Lifetime[0]
+info: TheOrangeEaglesOfToti.AppHost.Resources.apiservice[0]
+      10: 2025-04-24T07:45:01.7320000Z       Content root path: C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ApiService
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      1: 2025-04-24T07:44:59.8920000Z c164d792808af7a9dfb455820b3a00825baccf46f9decf97d7ab152240a63a7d
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      2: 2025-04-24T07:45:02.0480000Z 
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      3: 2025-04-24T07:45:02.0480000Z c164d792808af7a9dfb455820b3a00825baccf46f9decf97d7ab152240a63a7d
+info: System.Net.Http.HttpClient.Default.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:61717/
+info: System.Net.Http.HttpClient.Default.ClientHandler[100]
+      Sending HTTP request GET http://localhost:61717/
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      4: 2025-04-24T07:45:02.1130372Z 1:C 24 Apr 2025 07:45:02.112 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      5: 2025-04-24T07:45:02.1130768Z 1:C 24 Apr 2025 07:45:02.112 * Redis version=7.4.2, bits=64, commit=00000000, modified=0, pid=1, just started
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      6: 2025-04-24T07:45:02.1130819Z 1:C 24 Apr 2025 07:45:02.112 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      7: 2025-04-24T07:45:02.1141022Z 1:M 24 Apr 2025 07:45:02.113 * monotonic clock: POSIX clock_gettime
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      8: 2025-04-24T07:45:02.1155747Z 1:M 24 Apr 2025 07:45:02.115 * Running mode=standalone, port=6379.
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      9: 2025-04-24T07:45:02.1160488Z 1:M 24 Apr 2025 07:45:02.115 * Server initialized
+info: TheOrangeEaglesOfToti.AppHost.Resources.cache[0]
+      10: 2025-04-24T07:45:02.1168589Z 1:M 24 Apr 2025 07:45:02.116 * Ready to accept connections tcp
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      6: 2025-04-24T07:45:03.5460000Z info: Microsoft.Hosting.Lifetime[14]
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      7: 2025-04-24T07:45:03.5470000Z       Now listening on: https://localhost:61733
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      8: 2025-04-24T07:45:03.5490000Z info: Microsoft.Hosting.Lifetime[14]
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      9: 2025-04-24T07:45:03.5500000Z       Now listening on: http://localhost:61734
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      10: 2025-04-24T07:45:03.5780000Z info: Microsoft.Hosting.Lifetime[0]
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      11: 2025-04-24T07:45:03.5800000Z       Application started. Press Ctrl+C to shut down.
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      12: 2025-04-24T07:45:03.5810000Z info: Microsoft.Hosting.Lifetime[0]
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      13: 2025-04-24T07:45:03.5820000Z       Hosting environment: Development
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      14: 2025-04-24T07:45:03.5830000Z info: Microsoft.Hosting.Lifetime[0]
+info: TheOrangeEaglesOfToti.AppHost.Resources.webfrontend[0]
+      15: 2025-04-24T07:45:03.5840000Z       Content root path: C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.Web
+info: System.Net.Http.HttpClient.Default.ClientHandler[101]
+      Received HTTP response headers after 945.5379ms - 200
+info: Polly[3]
+      Execution attempt. Source: '-standard//Standard-Retry', Operation Key: '', Result: '200', Handled: 'False', Attempt: '0', Execution Time: 961.0094ms
+info: System.Net.Http.HttpClient.Default.LogicalHandler[101]
+      End processing HTTP request after 1000.4126ms - 200

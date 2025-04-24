@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6GEgAQVfkdC6jdlkJ1dFclVt7musWLhizMRwctWWZunL2KBbcgW37aMeBpLYZ742c7GaHx2TWpNtLpbJO6mXkQ==",
+  "dgSpecHash": "OldXJeoSuFE=",
   "success": true,
-  "projectFilePath": "C:\\Development\\MyChillisoftProgressionStuff\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Njabulo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Njabulo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Njabulo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

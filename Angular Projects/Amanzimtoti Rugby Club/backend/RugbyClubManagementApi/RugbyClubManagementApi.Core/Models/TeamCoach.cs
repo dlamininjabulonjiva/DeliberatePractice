@@ -8,7 +8,7 @@ namespace RugbyClubManagementApi.Core.Models
         public Guid CoachId { get; set; }
 
         // Navigation properties
-        public Team Team { get; set; }
-        public Coach Coach { get; set; }
+        public Team Team { get; set; } = default!;
+        public Coach Coach { get; set; } = default!;
     }
 }

@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\njabulo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Njabulo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\MyChillisoftProgressionStuff\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.csproj",
+      "projectUniqueName": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.csproj",
       "projectName": "MyOwnTestDataBuilder",
-      "projectPath": "C:\\Development\\MyChillisoftProgressionStuff\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.csproj",
-      "packagesPath": "C:\\Users\\njabulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\MyChillisoftProgressionStuff\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\obj\\",
+      "projectPath": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.csproj",
+      "packagesPath": "C:\\Users\\Njabulo\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\njabulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Njabulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,6 +41,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -55,16 +57,31 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

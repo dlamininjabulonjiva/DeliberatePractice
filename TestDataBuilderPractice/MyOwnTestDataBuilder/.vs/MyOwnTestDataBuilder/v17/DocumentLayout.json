@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E24F0CE1-137D-4012-9758-12F537959AFF}|MyOwnTestDataBuilder.Test\\MyOwnTestDataBuilder.Test.csproj|c:\\development\\deliberatepractice\\testdatabuilderpractice\\myowntestdatabuilder\\myowntestdatabuilder.test\\builders\\addresstestdatabuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24F0CE1-137D-4012-9758-12F537959AFF}|MyOwnTestDataBuilder.Test\\MyOwnTestDataBuilder.Test.csproj|solutionrelative:myowntestdatabuilder.test\\builders\\addresstestdatabuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24F0CE1-137D-4012-9758-12F537959AFF}|MyOwnTestDataBuilder.Test\\MyOwnTestDataBuilder.Test.csproj|c:\\development\\deliberatepractice\\testdatabuilderpractice\\myowntestdatabuilder\\myowntestdatabuilder.test\\builders\\studenttestdatabuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24F0CE1-137D-4012-9758-12F537959AFF}|MyOwnTestDataBuilder.Test\\MyOwnTestDataBuilder.Test.csproj|solutionrelative:myowntestdatabuilder.test\\builders\\studenttestdatabuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24F0CE1-137D-4012-9758-12F537959AFF}|MyOwnTestDataBuilder.Test\\MyOwnTestDataBuilder.Test.csproj|c:\\development\\deliberatepractice\\testdatabuilderpractice\\myowntestdatabuilder\\myowntestdatabuilder.test\\students\\usecases\\testgetstudentbystudentnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24F0CE1-137D-4012-9758-12F537959AFF}|MyOwnTestDataBuilder.Test\\MyOwnTestDataBuilder.Test.csproj|solutionrelative:myowntestdatabuilder.test\\students\\usecases\\testgetstudentbystudentnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressTestDataBuilder.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.Test\\Builders\\AddressTestDataBuilder.cs",
+              "RelativeDocumentMoniker": "MyOwnTestDataBuilder.Test\\Builders\\AddressTestDataBuilder.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.Test\\Builders\\AddressTestDataBuilder.cs",
+              "RelativeToolTip": "MyOwnTestDataBuilder.Test\\Builders\\AddressTestDataBuilder.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:36:24.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestGetStudentByStudentNumber.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.Test\\Students\\UseCases\\TestGetStudentByStudentNumber.cs",
+              "RelativeDocumentMoniker": "MyOwnTestDataBuilder.Test\\Students\\UseCases\\TestGetStudentByStudentNumber.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.Test\\Students\\UseCases\\TestGetStudentByStudentNumber.cs",
+              "RelativeToolTip": "MyOwnTestDataBuilder.Test\\Students\\UseCases\\TestGetStudentByStudentNumber.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:07:54.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentTestDataBuilder.cs",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.Test\\Builders\\StudentTestDataBuilder.cs",
+              "RelativeDocumentMoniker": "MyOwnTestDataBuilder.Test\\Builders\\StudentTestDataBuilder.cs",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\TestDataBuilderPractice\\MyOwnTestDataBuilder\\MyOwnTestDataBuilder.Test\\Builders\\StudentTestDataBuilder.cs",
+              "RelativeToolTip": "MyOwnTestDataBuilder.Test\\Builders\\StudentTestDataBuilder.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:07:19.772Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

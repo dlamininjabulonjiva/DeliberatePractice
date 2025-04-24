@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TheOrangeEaglesOfToti.Web.props" />
+</Project>

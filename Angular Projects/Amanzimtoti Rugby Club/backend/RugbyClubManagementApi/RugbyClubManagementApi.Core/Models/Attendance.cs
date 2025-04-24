@@ -7,6 +7,6 @@ namespace RugbyClubManagementApi.Core.Models
         public Guid Id { get; set; }
         public Guid PlayerId { get; set; }
         public Guid EventId { get; set; }
-        public string Status { get; set; }
+        public string Status { get; set; } = default!;
     }
 }

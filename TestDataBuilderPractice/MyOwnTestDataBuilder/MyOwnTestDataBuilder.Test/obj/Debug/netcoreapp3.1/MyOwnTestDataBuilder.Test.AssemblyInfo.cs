@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyOwnTestDataBuilder.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa4d1a20bd3aaf2db6389145379880902ae054ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyOwnTestDataBuilder.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyOwnTestDataBuilder.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

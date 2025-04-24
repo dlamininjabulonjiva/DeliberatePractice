@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TheOrangeEaglesOfToti.ApiService.props" />
+</Project>

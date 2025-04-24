@@ -1,0 +1,13 @@
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\bin\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.deps.json
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\bin\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\bin\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.pdb
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.AssemblyInfo.cs
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.sourcelink.json
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\refint\TheOrangeEaglesOfToti.ServiceDefaults.dll
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\TheOrangeEaglesOfToti.ServiceDefaults.pdb
+C:\Development\DeliberatePractice\Amanzimtoti Rugby Club\TheOrangeEaglesOfToti\TheOrangeEaglesOfToti.ServiceDefaults\obj\Debug\net8.0\ref\TheOrangeEaglesOfToti.ServiceDefaults.dll
