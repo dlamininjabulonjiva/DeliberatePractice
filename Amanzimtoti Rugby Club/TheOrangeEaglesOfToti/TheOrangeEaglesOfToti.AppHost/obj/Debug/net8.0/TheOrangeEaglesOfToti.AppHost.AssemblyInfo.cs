@@ -26,7 +26,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheOrangeEaglesOfToti.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728785195187101a43b6917da8b7e2c2ab838b53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69c3bf6f8edd445a5d130393cc71dc621f0f5f28")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheOrangeEaglesOfToti.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheOrangeEaglesOfToti.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|solutionrelative:theorangeeaglesoftoti.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.web\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|solutionrelative:theorangeeaglesoftoti.web\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|solutionrelative:theorangeeaglesoftoti.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE10E98-8357-2327-51C3-E495FECA1C96}|TheOrangeEaglesOfToti.ApiService\\TheOrangeEaglesOfToti.ApiService.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE10E98-8357-2327-51C3-E495FECA1C96}|TheOrangeEaglesOfToti.ApiService\\TheOrangeEaglesOfToti.ApiService.csproj|solutionrelative:theorangeeaglesoftoti.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8322BC7-4CEE-403A-97F1-F3AFDD2B6878}|TheOrangeEaglesOfToti.AppHost\\TheOrangeEaglesOfToti.AppHost.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8322BC7-4CEE-403A-97F1-F3AFDD2B6878}|TheOrangeEaglesOfToti.AppHost\\TheOrangeEaglesOfToti.AppHost.csproj|solutionrelative:theorangeeaglesoftoti.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.web\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|solutionrelative:theorangeeaglesoftoti.web\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81128E97-5AFD-EF37-5A3D-EADA9E428950}|TheOrangeEaglesOfToti.Web\\TheOrangeEaglesOfToti.Web.csproj|solutionrelative:theorangeeaglesoftoti.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE10E98-8357-2327-51C3-E495FECA1C96}|TheOrangeEaglesOfToti.ApiService\\TheOrangeEaglesOfToti.ApiService.csproj|c:\\development\\deliberatepractice\\amanzimtoti rugby club\\theorangeeaglesoftoti\\theorangeeaglesoftoti.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE10E98-8357-2327-51C3-E495FECA1C96}|TheOrangeEaglesOfToti.ApiService\\TheOrangeEaglesOfToti.ApiService.csproj|solutionrelative:theorangeeaglesoftoti.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.Web\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "TheOrangeEaglesOfToti.Web\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T11:02:19.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.Web\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "TheOrangeEaglesOfToti.Web\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T11:01:27.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.AppHost\\Program.cs",
               "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.AppHost\\Program.cs",
               "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.AppHost\\Program.cs",
               "RelativeToolTip": "TheOrangeEaglesOfToti.AppHost\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T13:00:16.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WeatherApiClient.cs",
               "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\WeatherApiClient.cs",
               "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.Web\\WeatherApiClient.cs",
               "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\WeatherApiClient.cs",
               "RelativeToolTip": "TheOrangeEaglesOfToti.Web\\WeatherApiClient.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T12:52:42.132Z",
               "EditorCaption": ""
@@ -62,20 +96,20 @@
               "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.ApiService\\Program.cs",
               "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.ApiService\\Program.cs",
               "RelativeToolTip": "TheOrangeEaglesOfToti.ApiService\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T12:53:43.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "TheOrangeEaglesOfToti.Web\\Components\\Pages\\Weather.razor",
               "ToolTip": "C:\\Development\\DeliberatePractice\\Amanzimtoti Rugby Club\\TheOrangeEaglesOfToti\\TheOrangeEaglesOfToti.Web\\Components\\Pages\\Weather.razor",
               "RelativeToolTip": "TheOrangeEaglesOfToti.Web\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-24T12:52:11.943Z",
               "EditorCaption": ""
